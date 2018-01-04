@@ -9,6 +9,10 @@
   width: 40%;
 }
 
+.project-content .left-column a {
+  font-size: 20%;
+}
+
 .project-content .left-column img {
   width: 80%;
 }
