@@ -1,0 +1,23 @@
+.project-content .left-column {
+  float: left;
+  width: 50%;
+}
+
+.project-content .right-column {
+  float: left;
+  margin-left: 50px;
+  width: 40%;
+}
+
+.project-content .left-column img {
+  width: 80%;
+}
+
+.project-content .left-column img.hide {
+  display: none;
+}
+
+.project-content p {
+  font-size: 50%;
+}
+

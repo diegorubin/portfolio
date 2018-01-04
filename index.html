@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Portfolio | Diego Rubin</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/moon.css">
+		<link rel="stylesheet" href="css/portfolio.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section data-state="loadSliders">
+          <h1>Meus Projetos</h1>
+          <p>
+            <a href="https://github.com/diegorubin" target="_github">@diegorubin</a>
+          </p>
+        </section>
+
+        <section>
+          <section>
+            <h2>Apontamento</h2>
+            <div class="project-content">
+              <div class="left-column">
+                <div class="slider">
+                  <img class="hide" src="images/apontamento.png"/>
+                  <img class="hide" src="images/apontamento-kanban.png"/>
+                  <img class="hide" src="images/apontamento-project.png"/>
+                </div>
+              </div>
+              <div class="right-column">
+                <p class="fragment">
+                  Criado para gerenciar tarefas e estimativas de projetos
+                </p>
+                <p class="fragment">Dashboard comparativo entre o planejado e o
+                executado</p>
+                <p class="fragment">Kanban para acompanhar o fluxo das histórias</p>
+
+                <p class="fragment">Desenvolvido em Ruby on Rails</p>
+              </div>
+            </div>
+          </section>
+        </section>
+
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+		<script src="js/portfolio.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>
